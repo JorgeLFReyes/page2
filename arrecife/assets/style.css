@@ -327,3 +327,32 @@ img {
   bottom: -10rem;
   filter: drop-shadow(0px 0px 0.5rem rgba(5, 213, 255, 1));
 }
+
+.fandf {
+  margin: auto 5%;
+  display: grid;
+  column-gap: 2rem;
+  grid-template-columns: repeat(2, minmax(50%, 1fr));
+}
+
+.fandf h2 {
+  text-align: center;
+  grid-column: span 2;
+}
+
+.fandf h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.fandf ul {
+  padding: 0 15%;
+}
+
+.flora,
+.fauna {
+  border-radius: 3rem;
+  box-shadow: 0 0 1rem 0 #000;
+}
