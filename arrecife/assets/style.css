@@ -101,7 +101,7 @@ img {
 .container span {
   display: block;
   font-family: "Poppins", sans-serif;
-  font-size: 13vw;
+  font-size: 12vw;
   margin: 0;
   background-image: var(--background-image);
   /* color: #fff; */
